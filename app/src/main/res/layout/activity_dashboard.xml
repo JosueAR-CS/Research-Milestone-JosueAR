@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvMetrics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Active Reach: 1.4K | XP: 4.5K"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:background="@color/light_gray"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvMetrics"
+        android:text="Upcoming Sponsored Events"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvHeader"
+        android:layout_above="@id/btnSponsorNew"/>
+
+    <Button
+        android:id="@+id/btnSponsorNew"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:text="+ Sponsor a New Event"
+        android:backgroundTint="@color/garnet"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+</RelativeLayout>
