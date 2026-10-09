@@ -10,10 +10,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.STRIDE">
-        
+
+        <activity android:name=".AnalyticsActivity" />
+        <activity android:name=".SponsorOnboardingActivity" />
         <activity android:name=".DashboardActivity" />
         <activity android:name=".CreateEventActivity" />
-        
+
         <activity
             android:name=".LoginActivity"
             android:exported="true"
