@@ -1,4 +1,4 @@
-package com.example.stride;
+package com.example.stride.model;
 
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;

@@ -1,4 +1,11 @@
-package com.example.stride;
+package com.example.stride.ui.sponsor;
+
+import com.example.stride.R;
+import com.example.stride.ui.dashboard.DashboardActivity;
+
+import com.example.stride.model.EventEntity;
+import com.example.stride.data.local.AppDatabase;
+import com.example.stride.data.local.EventDao;
 
 import android.content.Intent;
 import android.content.SharedPreferences;

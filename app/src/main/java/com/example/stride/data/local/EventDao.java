@@ -1,4 +1,6 @@
-package com.example.stride;
+package com.example.stride.data.local;
+
+import com.example.stride.model.EventEntity;
 import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.Query;

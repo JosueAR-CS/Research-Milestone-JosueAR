@@ -1,4 +1,11 @@
-package com.example.stride;
+package com.example.stride.ui.event;
+
+import com.example.stride.R;
+import com.example.stride.ui.dashboard.AnalyticsActivity;
+
+import com.example.stride.model.EventEntity;
+import com.example.stride.data.local.AppDatabase;
+import com.example.stride.data.local.EventDao;
 
 import android.content.Intent;
 import android.view.LayoutInflater;

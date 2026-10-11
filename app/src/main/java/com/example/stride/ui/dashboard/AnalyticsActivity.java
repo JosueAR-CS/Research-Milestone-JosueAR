@@ -1,4 +1,10 @@
-package com.example.stride;
+package com.example.stride.ui.dashboard;
+
+import com.example.stride.R;
+
+import com.example.stride.model.EventEntity;
+import com.example.stride.data.local.AppDatabase;
+import com.example.stride.data.local.EventDao;
 
 import android.os.Bundle;
 import android.widget.TextView;
